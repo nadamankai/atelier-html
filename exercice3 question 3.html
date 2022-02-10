@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>inscription en licence</title>
+</head>
+<body>
+<div>
+<h1 align="center">inscription en licence</h1>
+    <FORM ACTION="script" METHOD="post" NAME ="nom_form">
+<fieldset>
+    <legend align="center"><b>informations personnelles<b/></legend>
+    <div align="center">
+      <label>Votre nom :</label>  <input type="text" pattern="[I][N][S][A][T][0-9]{4}" name="nom" size=15 maxlength=30 placeholder="votre nom ?">
+<br/><br/>
+        <label>Votre prenom :</label>  <input type="text" name="prenom" size=19 maxlength=35 placeholder="votre prenom ?">
+   <br/> <br/>
+        <label>Votre age :</label>  <input type="number" name="age" size=15 maxlength=30 placeholder="votre age?">
+        <br/><br/>
+        <label>votre adresse</label><textarea name="adresse" rows=5 cols=40 placeholder="votre adresse?"></textarea>
+        <br/><br/>
+        <label>mot de passe *:</label>  <input type="password" name="mot de passe" size=15 maxlength=30 required >
+        <br/><br/>
+        <label>retapez votre mot de passe *:</label>  <input type="password" name="mot de passe" size=15 maxlength=30 required>
+        <br/><br/>
+        <label>Votre @mail :</label>  <input type="email" name="@mail" size=15 maxlength=30 placeholder="your-email@site.com" >
+        <br/><br/>
+        <label>URL du site :</label>  <input type="url" name="URL" size=15 maxlength=30 placeholder="votre url" >
+        <br/><br/>
+        <label>date de naisaance :</label><input type="date" name="date de naissance">
+
+
+    </div>
+</fieldset>
+<fieldset>
+    <legend align="center">gestion des groupes et des options</legend>
+    <div align="center">
+<label>votre groupe :</label><input type="radio" name="groupe" value="groupe 1">groupe 1
+      <input type="radio" name="groupe" value="groupe 2">groupe 2
+        <input type="radio" name="groupe" value="groupe 3">groupe 3
+        <br/><br/>
+        <label>Numero de carte d'etudiant:</label>  <input type="text" name="numero carte d etudiant" size=25 maxlength=30 placeholder="numero de carte d'etudiant ?">
+
+        <br/><br/>
+<label>choisissez les options que vous desirez:</label><select name="option" size="5">
+        <option value="J2ee">J2ee
+        <option value="Android">Android
+        <option value=".Net"> .Net
+        <option value="HTML5">HTML5
+        <option value="Flex"> Flex
+    </select>
+        <br/><br/>
+
+    </div>
+</fieldset>
+<br/><br/>
+
+<div align="center">
+<INPUT TYPE="submit" VALUE="Valider">
+<INPUT TYPE="reset" VALUE="reinitialiser">
+</div>
+</div>
+</body>
+</html>
